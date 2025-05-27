@@ -1,14 +1,18 @@
-package org.example;
+package org.example.Logica;
 
 /**
- * Clase que representa una moneda particular: Moneda de 100 pesos.
+ * Clase que representa una moneda particular: Moneda de 1000 pesos.
  * Hereda de la clase abstracta moneda y establece como se consume.
  * @author Carlos Salinas
  */
-class Moneda100 extends Moneda
+class Moneda1000 extends Moneda
 {
-    /**Constructor por defecto de la clase Moneda100*/
-    public Moneda100() {}
+
+    /**Constructor por defecto de la clase Moneda1000*/
+    public Moneda1000()
+    {
+
+    }
 
     /**
      * Retorna el numero de serie de la Moneda.
@@ -19,10 +23,11 @@ class Moneda100 extends Moneda
     }
 
     /**
-     *@return 100 el valor de la moneda.
+     *@return 1000 el valor de la moneda.
      */
-    public int getValor() {
-        return 100;
+    public int getValor()
+    {
+        return 1000;
     }
 
     @Override
@@ -30,9 +35,11 @@ class Moneda100 extends Moneda
         return 0;
     }
 
+
     @Override
     public int compareTo(Object o) {
         Moneda aux = (Moneda)o;
-        return Integer.compare(100,aux.getValor());
+        return Integer.compare(1000,aux.getValor());
     }
+
 }

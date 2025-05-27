@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 
 /**
  * Clase que representa un comprador que compra un producto de un expendedor con una moneda.

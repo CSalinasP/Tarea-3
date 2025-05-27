@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 import java.util.Scanner;
 
 /**La clase {@code} MainInteractivo proporciona una interfaz para la simulacion de una serie de compras

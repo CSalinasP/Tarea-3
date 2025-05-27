@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 
 /**
  * Clase que representa un tipo de dulce particular: Super8.

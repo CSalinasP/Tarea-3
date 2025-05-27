@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 
 /**Enumeracion que contiene los precios de los productos.
  */

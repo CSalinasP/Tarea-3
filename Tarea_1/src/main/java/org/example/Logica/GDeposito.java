@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 import java.util.ArrayList;
 
 /**La clase generica Deposito simula un deposito para almacenar diferentes tipos de objetos

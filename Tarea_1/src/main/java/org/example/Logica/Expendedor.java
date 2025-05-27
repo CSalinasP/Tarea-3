@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 
 /**
  * Clase que representa un expendedor con 5 depositos para distintos

@@ -1,14 +1,11 @@
-package org.example;
+package org.example.Visual;
+
 import javax.swing.JFrame;
-import java.awt.BorderLayout;
-import javax.swing.JPanel;
-
-
 
 
 public class Ventana extends JFrame
 {
-    Panel1 Panel1 = new Panel1();
+    org.example.Visual.Panel1 Panel1 = new Panel1();
 
     public Ventana()
     {

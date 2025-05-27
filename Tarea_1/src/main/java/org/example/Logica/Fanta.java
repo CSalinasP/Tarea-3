@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 
 /**
  * Clase que representa una bebida particular: Fanta.

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Logica;
 
 /**
  * Clase abstracta que representa una bebida, que es un tipo de producto.

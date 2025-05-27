@@ -1,8 +1,6 @@
-package org.example;
+package org.example.Visual;
 
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
-import java.awt.BorderLayout;
 import javax.swing.JPanel;
 import javax.swing.JButton;
 

@@ -1,5 +1,4 @@
-package org.example;
-import java.util.ArrayList;
+package org.example.Logica;
 
 /**La clase main permite probar las distintas clases con sus metodos
  * @author Carlos Salinas
