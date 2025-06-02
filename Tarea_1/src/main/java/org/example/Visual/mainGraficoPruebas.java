@@ -1,8 +1,8 @@
 package org.example.Visual;
 
-public class mainGrafico
+public class mainGraficoPruebas
 {
     public static void main(String[] args) {
-        Ventana v = new Ventana();
+        VentanaPruebas v = new VentanaPruebas();
     }
 }
