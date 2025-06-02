@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class ExpendedorS extends JPanel {
     public ExpendedorS(){
-        this.setPreferredSize(new Dimension(200, 50));
+        this.setPreferredSize(new Dimension(200, 150));
         this.setBackground(Color.RED);
     }
 

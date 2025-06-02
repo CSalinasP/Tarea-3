@@ -5,6 +5,7 @@ import java.awt.*;
 
 public class PanelComprador extends JPanel {
     public PanelComprador(){
+        setPreferredSize(new Dimension(200,650));
         this.setLayout(new GridLayout(3, 1, 5, 5));
 
         //se instancian los subpaneles
