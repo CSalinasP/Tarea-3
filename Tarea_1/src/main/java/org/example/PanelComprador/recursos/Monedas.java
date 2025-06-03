@@ -15,7 +15,14 @@ public class Monedas extends JPanel {
     public  Monedas(int valor) {
         // asyda a los Layout Managers a calcular el tamaño inicial
         this.valor = valor;
-        setPreferredSize(new Dimension(60,60));
+        setPreferredSize(new Dimension(60, 60));
+        addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent e) {
+                selecionada = !selecionada; // Cambia el estado al hacer clic
+                repaint(); // Vuelve a dibujar con el borde azul si está seleccionada
+            }
+        });
     }
 
     @Override
