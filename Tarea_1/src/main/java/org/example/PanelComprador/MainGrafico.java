@@ -1,6 +1,5 @@
 package org.example.PanelComprador;
 
-import org.example.PanelComprador.InterfazVentana.ExpendedorW;
 import org.example.PanelComprador.InterfazVentana.Ventana;
 
 public class MainGrafico {

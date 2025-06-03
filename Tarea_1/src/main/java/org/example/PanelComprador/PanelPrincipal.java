@@ -1,7 +1,7 @@
 package org.example.PanelComprador;
 
-import org.example.PanelComprador.InterfazVentana.PanelComprador;
-import org.example.PanelComprador.InterfazVentana.PanelExpendedor;
+import org.example.PanelComprador.PanelComprador.PanelComprador;
+import org.example.PanelComprador.PanelComprador.PanelExpendedor;
 
 import javax.swing.*;
 import java.awt.*;
