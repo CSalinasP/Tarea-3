@@ -1,0 +1,17 @@
+Index: Tarea_1/src/main/java/org/example/Dulce.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\n\n/**\n * Clase abstracta que representa un dulce, que es un tipo de producto.\n * Cada dulce tiene un numero de serie unico y debe establecer como se consume.\n * @author Carlos Salinas\n */\nabstract class Dulce extends Producto {\n    private int serie;\n\n    /**\n     * Constructor que inicializa el dulce con un número de serie.\n     * @param numSerie numero de serie unico del dulce.\n     */\n    public Dulce(int numSerie) {\n        serie = numSerie;\n    }\n\n    /**\n     * Retorna el numero de serie del dulce.\n     * @return el número de serie.\n     */\n    public int getSerie() {\n        return serie;\n    }\n\n    /**\n     * Metodo abstracto que debe ser implementado por las subclases.\n     * establece como se consume el dulce.\n     * @return un String que depende del tipo de dulce.\n     */\n    public abstract String consumir();\n}\n
+===================================================================
+diff --git a/Tarea_1/src/main/java/org/example/Dulce.java b/Tarea_1/src/main/java/org/example/Dulce.java
+--- a/Tarea_1/src/main/java/org/example/Dulce.java	(revision 904c0eb74414e5f0f913f10cda0a14bf3884ec80)
++++ b/Tarea_1/src/main/java/org/example/Dulce.java	(date 1748884479949)
+@@ -19,7 +19,7 @@
+     /**
+      * Retorna el numero de serie del dulce.
+      * @return el número de serie.
+-     */
++     *
+     public int getSerie() {
+         return serie;
+     }
