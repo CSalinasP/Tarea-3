@@ -7,13 +7,16 @@ import java.awt.*;
 
 public class ExpendedorC extends JPanel {
     public ExpendedorC(){
-        this.setLayout(new GridLayout(5, 5, 5, 5));
+        this.setPreferredSize(new Dimension(200,200));
+        this.setLayout(new GridLayout(3, 2, 5, 5));
 
         for(int i=0; i<5; i++){
             Productos p = new Productos();
             this.add(p);
             p.addImagen("CocaCola");
         }
+
+        /**
         for(int i=0; i<5; i++){
             Productos p = new Productos();
             this.add(p);
@@ -34,6 +37,7 @@ public class ExpendedorC extends JPanel {
             this.add(p);
             p.addImagen("Snickers");
         }
+         */
     }
 
     public void paintComponent(Graphics g){

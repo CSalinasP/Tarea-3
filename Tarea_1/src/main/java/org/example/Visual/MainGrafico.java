@@ -5,5 +5,3 @@ public class MainGrafico {
         Ventana v = new Ventana();
     }
 }
-
-//Se inserta el dinero

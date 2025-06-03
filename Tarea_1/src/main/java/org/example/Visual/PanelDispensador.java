@@ -9,8 +9,7 @@ public class PanelDispensador extends JPanel{
 
     public PanelDispensador(){
         this.setLayout(new GridBagLayout());
-        Productos p = new Productos();
-        this.add(p);
+        this.add(new JButton("Restart"));
     }
 
     public void paintComponent(Graphics g){

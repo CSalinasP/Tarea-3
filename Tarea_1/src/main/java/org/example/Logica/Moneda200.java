@@ -23,15 +23,4 @@ class Moneda200 extends Moneda
     public int getValor() {
         return 200;
     }
-
-    @Override
-    public int compareTo() {
-        return 0;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        Moneda aux = (Moneda)o;
-        return Integer.compare(100,aux.getValor());
-    }
 }
