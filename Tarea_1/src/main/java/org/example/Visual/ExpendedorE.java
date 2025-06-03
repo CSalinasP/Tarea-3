@@ -9,6 +9,8 @@ public class ExpendedorE extends JPanel {
         this.setBackground(Color.RED);
         JPanel n = new PanelNumerico();
         this.add(n);
+        JPanel m = new PanelDispensador();
+        this.add(m);
     }
 
     public void paintComponent(Graphics g){
