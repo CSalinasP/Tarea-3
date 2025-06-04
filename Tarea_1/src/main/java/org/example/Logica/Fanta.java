@@ -30,4 +30,11 @@ class Fanta extends Bebida {
     public String consumir() {
         return "fanta";
     }
+
+    /**Metodo que describe a la clase Fanta.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa una bebida : "+this.consumir()+" con numero de serie: "+this;
+    }
 }

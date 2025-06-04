@@ -24,4 +24,11 @@ class Moneda100 extends Moneda
     public int getValor() {
         return 100;
     }
+
+    /**Metodo que describe a la clase Moneda100.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa una moneda con valor: "+this.getValor()+" y numero de serie: " + this;
+    }
 }

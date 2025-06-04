@@ -30,4 +30,11 @@ class Sprite extends Bebida {
     public String consumir() {
         return "sprite";
     }
+
+    /**Metodo que describe a la clase Sprite.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa una bebida: "+this.consumir()+" con numero de serie: "+this;
+    }
 }

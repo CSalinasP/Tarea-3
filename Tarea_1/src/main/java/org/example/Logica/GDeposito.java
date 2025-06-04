@@ -39,4 +39,11 @@ public class GDeposito<T> {
             return aux;
         }
     }
+
+    /**Metodo que describe a la clase GDeposito.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa un deposito generico";
+    }
 }

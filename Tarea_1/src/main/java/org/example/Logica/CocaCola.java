@@ -30,4 +30,11 @@ class CocaCola extends Bebida {
     public String consumir() {
         return "cocacola";
     }
+
+    /**Metodo que describe a la clase Snickers.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa una bebida : "+this.consumir()+" con numero de serie: "+this;
+    }
 }

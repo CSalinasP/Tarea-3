@@ -30,4 +30,11 @@ class Super8 extends Dulce {
     public String consumir() {
         return "super8";
     }
+
+    /**Metodo que describe a la clase Super8.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa un: "+this.consumir()+" con numero de serie: "+this;
+    }
 }

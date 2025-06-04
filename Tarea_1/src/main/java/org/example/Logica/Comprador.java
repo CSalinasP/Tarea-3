@@ -29,18 +29,6 @@ class Comprador {
 
         try{
             Producto p = exp.comprarProducto(m,tipo);
-        }
-        catch (Exepciones e){
-            if (e instanceof PagoIncorrectoException) {
-                throw new PagoIncorrectoException();
-            } else if (e instanceof NoHayProductoException) {
-                throw new NoHayProductoException();
-            } else if (e instanceof PagoInsuficienteException) {
-                throw new PagoInsuficienteException();
-            }
-        }
-        finally {
-            Producto p = exp.comprarProducto(m,tipo);
             if(p!=null){
                 sonido = p.consumir();
                 while (true) {
@@ -69,6 +57,15 @@ class Comprador {
                 }
             }
         }
+        catch (Exepciones e){
+            if (e instanceof PagoIncorrectoException) {
+                throw new PagoIncorrectoException();
+            } else if (e instanceof NoHayProductoException) {
+                throw new NoHayProductoException();
+            } else if (e instanceof PagoInsuficienteException) {
+                throw new PagoInsuficienteException();
+            }
+        }
     }
 
     /**
@@ -86,5 +83,12 @@ class Comprador {
      */
     public String queConsumiste() {
         return sonido;
+    }
+
+    /**Metodo que describe a la clase Comprador.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa un comprador";
     }
 }
