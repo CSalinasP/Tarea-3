@@ -1,5 +1,4 @@
-package org.example.PanelComprador.InterfazVentana;
-import org.example.PanelComprador.PanelPrincipal;
+package org.example.PanelComprador;
 
 import javax.swing.JFrame;
 

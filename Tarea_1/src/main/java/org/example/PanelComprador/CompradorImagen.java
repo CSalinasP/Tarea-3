@@ -1,6 +1,5 @@
 package org.example.PanelComprador;
 
-import org.example.PanelComprador.recursos.UsuarioImagen;
 import javax.swing.*;
 import java.awt.*;
 

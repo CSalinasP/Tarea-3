@@ -1,7 +1,11 @@
-package org.example.PanelComprador.PanelComprador;
+package org.example.PanelComprador;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JButton;
+import javax.swing.JFrame;
 
 public class ExpendedorW extends JPanel {
 

@@ -1,3 +1,14 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+##Inteliij IDea ##
+.idea/modele.xml
+idea/jarRepositories.xml
+.idea/compler.xml
+.idea/Libraries/
+.idea/misc.xml
+.idea/vcs.xml
+.idea/
+*.iws
+*.iml
++.ipr
