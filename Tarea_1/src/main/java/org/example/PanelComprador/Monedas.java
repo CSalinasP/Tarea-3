@@ -1,4 +1,4 @@
-package org.example.PanelComprador.recursos;
+package org.example.PanelComprador;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,23 +6,27 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class Monedas extends JPanel {
-    /*
-    Contructor de la moneda, que sera para poder ser selecionada
-     */
     private int valor;
-    private boolean selecionada= false;
+    private boolean selecionada = false;
 
-    public  Monedas(int valor) {
-        // asyda a los Layout Managers a calcular el tamaño inicial
+    public Monedas(int valor) {
         this.valor = valor;
         setPreferredSize(new Dimension(60,60));
+
+        // Hacemos la moneda "clickeable"
+        this.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                selecionada = !selecionada;      // Cambia el estado de selección
+                repaint();
+            }
+        });
     }
 
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        // Escoge color según valor
         Color colorMoneda;
         switch (valor) {
             case 200: colorMoneda = new Color(215, 215, 215); break;
@@ -30,17 +34,15 @@ public class Monedas extends JPanel {
             case 500: colorMoneda = Color.ORANGE; break;
             case 1000: colorMoneda = new Color(189, 162, 67); break;
             case 1500: colorMoneda = new Color(140, 171, 221); break;
-            default: colorMoneda = Color.YELLOW;  // por si acaso
+            default: colorMoneda = Color.YELLOW;
         }
 
         g.setColor(colorMoneda);
         g.fillOval(5, 5, getWidth() - 10, getHeight() - 10);
 
-        // Borde
         g.setColor(selecionada ? Color.BLUE : Color.BLACK);
         g.drawOval(5, 5, getWidth() - 10, getHeight() - 10);
 
-        // Texto valor centrado
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.BOLD, 14));
         String texto = String.valueOf(valor);
@@ -53,5 +55,3 @@ public class Monedas extends JPanel {
     public int getValor() { return valor; }
     public boolean isSeleccionada() { return selecionada; }
 }
-
-

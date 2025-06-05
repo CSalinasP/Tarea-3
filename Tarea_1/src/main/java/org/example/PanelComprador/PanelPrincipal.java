@@ -1,8 +1,5 @@
 package org.example.PanelComprador;
 
-import org.example.PanelComprador.PanelComprador.PanelComprador;
-import org.example.PanelComprador.PanelComprador.PanelExpendedor;
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -18,9 +15,11 @@ public class PanelPrincipal extends JPanel {
         this.add(com);
     }
 
-    public void PaintComponent (Graphics g){
+
+    @Override
+    public void paintComponent(Graphics g){
         super.paintComponent(g);
-        com.paintComponent(g);
-        exp.paintComponent(g);
+        // No es necesario llamar paintComponenualmente en los hijos
+
     }
 }

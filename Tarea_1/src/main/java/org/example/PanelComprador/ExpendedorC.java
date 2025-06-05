@@ -1,6 +1,4 @@
-package org.example.PanelComprador.PanelComprador;
-
-import org.example.PanelComprador.recursos.*;
+package org.example.PanelComprador;
 
 import javax.swing.*;
 import java.awt.*;

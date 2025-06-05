@@ -1,10 +1,8 @@
-package org.example.PanelComprador.PanelComprador;
-
-import org.example.PanelComprador.CompradorImagen;
-import org.example.PanelComprador.CompradorMonedero;
+package org.example.PanelComprador;
 
 import javax.swing.*;
 import java.awt.*;
+import org.example.PanelComprador.CompradorDeposito;
 
 public class PanelComprador extends JPanel {
     public PanelComprador(){

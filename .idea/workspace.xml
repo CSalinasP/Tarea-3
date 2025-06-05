@@ -4,24 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-commit requerido para hacer un merge con la version mas actual de la rama pruebas2">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="Revert &quot;a&quot;&#10;&#10;This reverts commit 5972054d">
+      <change afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/BotonesDelProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Tarea-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/CocaCola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Expendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Fanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Fanta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda100.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda1500.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda1500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda200.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda200.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda300.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda300.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda500.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Moneda500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Snickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Snickers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Super8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Super8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/CompradorImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/CompradorImagen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/CompradorMonedero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/CompradorMonedero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/InterfazVentana/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/MainGrafico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/MainGrafico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/BotonesDelProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/CompradorDeposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/CompradorDeposito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/ExpendedorC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/ExpendedorC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/ExpendedorE.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/ExpendedorE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/ExpendedorN.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/ExpendedorN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/ExpendedorS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/ExpendedorS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/ExpendedorW.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/ExpendedorW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelComprador/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelExpendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelDispensador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelDispensador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/PanelPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/recursos/Monedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/Monedas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/recursos/Productos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/recursos/UsuarioImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/PanelComprador/UsuarioImagen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,27 +45,38 @@
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="pruebas2" />
-  </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="pruebas2" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pruebas2" />
+        <entry key="$PROJECT_DIR$" value="4340c96910491366ac6a8330c06d60a91dbd5540" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Farentsen999&quot;
+    &quot;assignee&quot;: &quot;Ignacio587&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/CSalinasP/Tarea-3.git&quot;,
-    &quot;accountId&quot;: &quot;770e8be2-4553-4c8c-a263-93cce23a67f1&quot;
+    &quot;accountId&quot;: &quot;66f306a8-194d-4dff-b5af-bb713924d60f&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -66,48 +87,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainGrafico.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainInteractivo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.mainGraficoPruebas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.PanelComprador.MainGrafico.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;pruebas&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ignacio-contardo/Escritorio/Tarea-3/Tarea_1/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainGrafico.executor": "Run",
+    "Application.MainInteractivo.executor": "Run",
+    "Application.mainGraficoPruebas.executor": "Run",
+    "Application.org.example.PanelComprador.MainGrafico.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "pruebas2",
+    "last_opened_file_path": "/home/ignacio-contardo/Escritorio/Tarea-3/Tarea_1/src",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tarea_1/src/main/resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.PanelComprador.MainGrafico">
-    <configuration name="MainGrafico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Visual.MainGrafico" />
-      <module name="Tarea-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Visual.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Logica.main" />
+  <component name="RunManager">
+    <configuration name="org.example.PanelComprador.MainGrafico" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PanelComprador.MainGrafico" />
       <module name="Tarea_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Logica.*" />
+          <option name="PATTERN" value="org.example.Visual.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,7 +128,7 @@
       <module name="Tarea_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.PanelComprador.*" />
+          <option name="PATTERN" value="org.example.Visual.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,14 +139,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.org.example.PanelComprador.MainGrafico" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.MainGrafico" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.MainGrafico" />
+        <item itemvalue="Application.org.example.PanelComprador.MainGrafico" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="" />
@@ -147,10 +151,31 @@
       <option name="presentableId" value="Default" />
       <updated>1748884337705</updated>
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;a&quot;&#10;&#10;This reverts commit 5972054d">
+      <option name="closed" value="true" />
+      <created>1749058100314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749058100315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-commit requerido para hacer un merge con la version mas actual de la rama pruebas2" />
-    <option name="LAST_COMMIT_MESSAGE" value="-commit requerido para hacer un merge con la version mas actual de la rama pruebas2" />
+    <MESSAGE value="Revert &quot;a&quot;&#10;&#10;This reverts commit 5972054d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;a&quot;&#10;&#10;This reverts commit 5972054d" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
