@@ -10,6 +10,7 @@ abstract class Moneda implements Comparable<Moneda> {
 
     /**
      * Retorna el numero de serie de la Moneda.
+     *
      * @return la instancia del objeto actual.
      */
     public Moneda getSerie() {

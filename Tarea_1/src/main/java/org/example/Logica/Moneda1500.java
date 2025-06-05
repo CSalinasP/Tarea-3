@@ -14,6 +14,7 @@ class Moneda1500 extends Moneda
 
     /**
      * Retorna el numero de serie de la Moneda.
+     *
      * @return la instancia del objeto actual.
      */
     public Moneda getSerie() {
@@ -32,6 +33,6 @@ class Moneda1500 extends Moneda
      * @return un String que describe de la clase*/
     @Override
     public String toString() {
-        return "Clase que representa una moneda con valor: "+this.getValor()+" y numero de serie: " + this;
+        return "Clase que representa una moneda con valor: "+this.getValor()+" y numero de serie: " + super.toString();
     }
 }

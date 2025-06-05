@@ -18,6 +18,7 @@ abstract class Bebida extends Producto {
 
     /**
      * Retorna el numero de serie de la bebida.
+     *
      * @return el número de serie.
      */
     public int getSerie() {

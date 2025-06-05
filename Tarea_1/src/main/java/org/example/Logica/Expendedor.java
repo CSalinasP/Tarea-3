@@ -31,12 +31,12 @@ class Expendedor
 
     public Expendedor(int numProductos, Precio precioProductoUno, Precio precioProductoDos, Precio precioProductoTres, Precio precioProductoCuatro, Precio precioProductoCinco)
     {
-        coca = new GDeposito();
-        sprite = new GDeposito();
-        fanta = new GDeposito();
-        super8 = new GDeposito();
-        snickers = new GDeposito();
-        monedas = new GDeposito();
+        coca = new GDeposito<>();
+        sprite = new GDeposito<>();
+        fanta = new GDeposito<>();
+        super8 = new GDeposito<>();
+        snickers = new GDeposito<>();
+        monedas = new GDeposito<>();
         precioUno = precioProductoUno.getValor();
         precioDos = precioProductoDos.getValor();
         precioTres = precioProductoTres.getValor();
@@ -158,8 +158,8 @@ class Expendedor
     }
 
     /**
-     * Retorna el valor vuelto resultante de las compras.
-     * @return el valor del vuelto resultante de las compras.
+     * Retorna el vuelto resultante de las compras en monedas de 100.
+     * @return es una moneda de 100.
      */
     public Moneda getVuelto() {
         return monedas.get();

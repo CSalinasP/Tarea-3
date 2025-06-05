@@ -17,6 +17,7 @@ class CocaCola extends Bebida {
 
     /**
      * Retorna el numero de serie de la bebida.
+     *
      * @return el número de serie.
      */
     public int getSerie() {
@@ -35,6 +36,6 @@ class CocaCola extends Bebida {
      * @return un String que describe de la clase*/
     @Override
     public String toString() {
-        return "Clase que representa una bebida : "+this.consumir()+" con numero de serie: "+this;
+        return "Clase que representa una bebida : "+this.consumir()+" con numero de serie: "+super.toString();
     }
 }
