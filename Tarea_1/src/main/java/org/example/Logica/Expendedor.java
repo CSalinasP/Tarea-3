@@ -6,7 +6,7 @@ package org.example.Logica;
  * Permite realizar compras de productos y retornar el vuelto de estas si es que hubiera
  * @author Carlos Salinas
  */
-class Expendedor
+public class Expendedor
 {
     private GDeposito<Producto> coca;
     private GDeposito<Producto> sprite;
