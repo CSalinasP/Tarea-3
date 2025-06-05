@@ -20,6 +20,14 @@ public class PanelComprador extends JPanel {
         this.add(deposito);
     }
 
+    public void ROJO(){
+        this.setBackground(Color.red);
+    }
+
+    public void AZUL(){
+        this.setBackground(Color.blue);
+    }
+
     public void paintComponent(Graphics g){
         super.paintComponent(g);
     }
