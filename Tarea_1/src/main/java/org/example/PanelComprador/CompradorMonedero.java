@@ -1,6 +1,5 @@
 package org.example.PanelComprador;
 
-import org.example.PanelComprador.recursos.Monedas;
 import javax.swing.*;
 import java.awt.*;
 

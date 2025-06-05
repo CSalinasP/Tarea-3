@@ -1,7 +1,4 @@
-package org.example.PanelComprador.PanelComprador;
-
-import org.example.PanelComprador.PanelDispensador;
-import org.example.PanelComprador.PanelNumerico;
+package org.example.PanelComprador;
 
 import javax.swing.*;
 import java.awt.*;

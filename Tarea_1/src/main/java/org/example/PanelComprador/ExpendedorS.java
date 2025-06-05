@@ -1,7 +1,4 @@
-package org.example.PanelComprador.PanelComprador;
-
-import org.example.PanelComprador.PanelRetirarProducto;
-import org.example.PanelComprador.PanelRetirarVuelto;
+package org.example.PanelComprador;
 
 import javax.swing.*;
 import java.awt.*;
