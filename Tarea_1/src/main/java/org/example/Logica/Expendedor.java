@@ -99,14 +99,14 @@ public class Expendedor
                 if(p==null){
                     throw new NoHayProductoException();
                 }
-            } else if (cual == 2) {
-                precio = precioDos;
+            } else if (cual == 3) {
+                precio = precioTres;
                 p = fanta.get();
                 if(p==null){
                     throw new NoHayProductoException();
                 }
-            } else if (cual == 3) {
-                precio = precioTres;
+            } else if (cual == 2) {
+                precio = precioDos;
                 p = sprite.get();
                 if(p==null){
                     throw new NoHayProductoException();

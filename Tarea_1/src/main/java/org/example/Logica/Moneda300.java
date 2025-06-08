@@ -4,7 +4,7 @@ package org.example.Logica;
  * Hereda de la clase abstracta moneda y establece como se consume.
  * @author Carlos Salinas
  */
-class Moneda300 extends Moneda
+public class Moneda300 extends Moneda
 {
     /**Constructor por defecto de la clase Moneda300*/
     public Moneda300() {}
