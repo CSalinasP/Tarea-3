@@ -4,7 +4,7 @@ package org.example.Logica;
  * Clase abstracta que representa una moneda y que implementa la interfaz Comparable
  * @author Carlos Salinas
  */
-abstract class Moneda implements Comparable<Moneda> {
+public abstract class Moneda implements Comparable<Moneda> {
     /**Constructor por defecto de la superclase Moneda*/
     public Moneda() {}
 

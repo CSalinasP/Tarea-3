@@ -1,4 +1,4 @@
-package org.example.PanelComprador;
+package org.example.Visual;
 
 import javax.swing.JFrame;
 

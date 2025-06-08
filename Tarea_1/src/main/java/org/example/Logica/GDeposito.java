@@ -40,6 +40,12 @@ public class GDeposito<T> {
         }
     }
 
+    /**Metodo que retorna la cantidad de elementos presentes en el deposito.
+     * @return un entero que representa la cantidad de elementos presentes en el deposito.*/
+    public int getTamaño(){
+        return this.Generico.toArray().length;
+    }
+
     /**Metodo que describe a la clase GDeposito.
      * @return un String que describe de la clase*/
     @Override

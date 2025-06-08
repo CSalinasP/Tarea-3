@@ -4,7 +4,7 @@ package org.example.Logica;
  * Clase que representa un comprador que compra un producto de un expendedor con una moneda.
  * @author Carlos Salinas
  */
-class Comprador {
+public class Comprador {
     private String sonido;
     private int vuelto;
     private GDeposito<Moneda> monedas100;

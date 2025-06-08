@@ -165,6 +165,20 @@ public class Expendedor
         return monedas.get();
     }
 
+    public String getStock(String producto){
+        if(producto == "coca"){return String.valueOf(coca.getTamaño());}
+        else if(producto == "sprite"){return String.valueOf(sprite.getTamaño());}
+        else if(producto == "fanta"){return String.valueOf(fanta.getTamaño());}
+        else if(producto == "super8"){return String.valueOf(super8.getTamaño());}
+        else {return String.valueOf(snickers.getTamaño());}
+    }
+
+    /**
+     * Retorna el stock inicial de cada proucto.
+     * @return es el numero que representa el stco inicial.
+     */
+
+
     /**Metodo que describe a la clase Expendedor.
      * @return un Strig que describe de la clase*/
     @Override

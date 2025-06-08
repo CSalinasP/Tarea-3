@@ -1,4 +1,4 @@
-package org.example.PanelComprador;
+package org.example.Visual;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ public class Monedas extends JPanel {
 
     public Monedas(int valor) {
         this.valor = valor;
-        setPreferredSize(new Dimension(60,60));
+        setPreferredSize(new Dimension(20,20));
 
         // Hacemos la moneda "clickeable"
         this.addMouseListener(new MouseAdapter() {

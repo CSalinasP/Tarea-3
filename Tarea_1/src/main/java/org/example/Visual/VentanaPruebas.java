@@ -1,7 +1,6 @@
-package org.example.PanelComprador;
+package org.example.Visual;
 
 import org.example.Logica.Expendedor;
-import org.example.Logica.Precio;
 
 import javax.swing.*;
 
@@ -21,9 +20,5 @@ public class VentanaPruebas extends JFrame
 
         this.pack();
         this.setVisible(true);
-
-        expLogica = new Expendedor(1,Precio.CIEN,Precio.TRESCIENTOS,Precio.MIL,Precio.MIL,Precio.MIL_QUINIENTOS);
-        C = new PanelPrincipal(expLogica);
-
     }
 }

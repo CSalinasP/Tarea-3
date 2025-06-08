@@ -1,12 +1,12 @@
-package org.example.PanelComprador;
+package org.example.Visual;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class PanelRetirarProducto extends JPanel{
-    public PanelRetirarProducto(){
+public class PanelRetirarVuelto extends JPanel{
+    public PanelRetirarVuelto(){
         this.setLayout(new GridBagLayout());
-        this.add(new JButton("Retirar Producto"));
+        this.add(new JButton("Retirar Vuelto"));
     }
 
     public void paintComponent(Graphics g){

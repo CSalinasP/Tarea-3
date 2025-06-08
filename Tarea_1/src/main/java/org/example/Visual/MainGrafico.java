@@ -1,4 +1,4 @@
-package org.example.PanelComprador;
+package org.example.Visual;
 
 public class MainGrafico {
     public static void main(String[] args) {

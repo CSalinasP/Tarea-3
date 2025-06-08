@@ -1,17 +1,18 @@
-package org.example.PanelComprador;
+package org.example.Visual;
 
 import javax.swing.*;
 import java.awt.*;
-import org.example.PanelComprador.CompradorDeposito;
+import java.util.ArrayList;
 
 public class PanelComprador extends JPanel {
+    CompradorMonedero monedero;
     public PanelComprador(){
         setPreferredSize(new Dimension(200,650));
         this.setLayout(new GridLayout(3, 1, 5, 5));
 
         //se instancian los subpaneles
+        monedero = new CompradorMonedero();
         JPanel imagen = new CompradorImagen();
-        JPanel monedero = new CompradorMonedero();
         JPanel deposito = new CompradorDeposito();
 
         //se añaden los subpaneles
@@ -20,15 +21,9 @@ public class PanelComprador extends JPanel {
         this.add(deposito);
     }
 
-    public void ROJO(){
-        this.setBackground(Color.red);
-    }
-
-    public void AZUL(){
-        this.setBackground(Color.blue);
-    }
-
     public void paintComponent(Graphics g){
         super.paintComponent(g);
     }
+
+    public ArrayList<JButton> getMonedas(){return monedero.getMonedas();}
 }
