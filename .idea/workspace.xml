@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se termino el javadoc" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ignacio578 &lt;icontardo2024@udec.cl&gt;" />
+        <option value="CSalinasP &lt;carlossalinaspereira@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="pruebas" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Farentsen999&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CSalinasP/Tarea-3.git&quot;,
+    &quot;accountId&quot;: &quot;770e8be2-4553-4c8c-a263-93cce23a67f1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2y6LWavQduAiPSZ8KCKlqyGx4bs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainGrafico.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#1 on pruebas",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/POO/Tarea-3/Tarea_1/src/main/java/org/example/Visual"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\POO\Tarea-3\Tarea_1\src\main\java\org\example\Visual" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se incorporo una nueva funcionalidad de prueba: al hacer click en el boton 1 el fondo del panel compador cambia de color de rojo a azul" />
+      <created>1749150129496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749150129496</updated>
+    </task>
+    <task id="LOCAL-00001" summary="En el panel del expendedor, el panel ExpendedorN (Superior) ahora tiene un mensaje por defecto con un metodo para poder actualizar el mensaje, el panel ExpendedorW (Lateral izquierdo) por defecto tiene ahora 3 subpaneles de mensajes en vertical (se puede cambiar), el panel ExpendedorS (Inferior) ahora tiene 2 subpaneles con un JButton cada uno para retirar producto y vuelto, el panel ExpendedorE (Lateral derecho) tiene ahora un PanelDispensador compuesto por el panel Productos. Ahora el panel Productos tiene un metodo para poder agregar y quitar imagenes (necesita un string como CocaCola, Sprite, etc, tiene que ser igual al nombre de la imagen png en resources), y finalmente he puesto imagenes de todas las bebidas y el del usuario (se pueden cambiar en resources)">
+      <option name="closed" value="true" />
+      <created>1749150258552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749150258552</updated>
+    </task>
+    <task id="LOCAL-00002" summary="En el panel del expendedor, el panel ExpendedorN (Superior) ahora tiene un mensaje por defecto con un metodo para poder actualizar el mensaje, el panel ExpendedorW (Lateral izquierdo) por defecto tiene ahora 3 subpaneles de mensajes en vertical (se puede cambiar), el panel ExpendedorS (Inferior) ahora tiene 2 subpaneles con un JButton cada uno para retirar producto y vuelto, el panel ExpendedorE (Lateral derecho) tiene ahora un PanelDispensador compuesto por el panel Productos. Ahora el panel Productos tiene un metodo para poder agregar y quitar imagenes (necesita un string como CocaCola, Sprite, etc, tiene que ser igual al nombre de la imagen png en resources), y finalmente he puesto imagenes de todas las bebidas y el del usuario (se pueden cambiar en resources)">
+      <option name="closed" value="true" />
+      <created>1749150300808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749150300808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-se implemento la capacidad de compra para CocaColas">
+      <option name="closed" value="true" />
+      <created>1749410636540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749410636540</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Agregar comentarios javadoc 1">
+      <option name="closed" value="true" />
+      <created>1749442099604</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749442099606</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java">
+      <option name="closed" value="true" />
+      <created>1749442219641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749442219641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java">
+      <option name="closed" value="true" />
+      <created>1749442316911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749442316911</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java">
+      <option name="closed" value="true" />
+      <created>1749442341145</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749442341145</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-se acabo de implementar la capacidad de comparar productos">
+      <option name="closed" value="true" />
+      <created>1749468213859</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749468213861</updated>
+    </task>
+    <task id="LOCAL-00009" summary="-se acabo de implementar la capacidad de comparar productos">
+      <option name="closed" value="true" />
+      <created>1749468321490</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749468321490</updated>
+    </task>
+    <task id="LOCAL-00010" summary="-se termino el javadoc">
+      <option name="closed" value="true" />
+      <created>1749479758860</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749479758860</updated>
+    </task>
+    <task id="LOCAL-00011" summary="-se termino el javadoc">
+      <option name="closed" value="true" />
+      <created>1749479895672</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749479895672</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-commit necesario para hacer checkout" />
+    <MESSAGE value="En el panel del expendedor, el panel ExpendedorN (Superior) ahora tiene un mensaje por defecto con un metodo para poder actualizar el mensaje, el panel ExpendedorW (Lateral izquierdo) por defecto tiene ahora 3 subpaneles de mensajes en vertical (se puede cambiar), el panel ExpendedorS (Inferior) ahora tiene 2 subpaneles con un JButton cada uno para retirar producto y vuelto, el panel ExpendedorE (Lateral derecho) tiene ahora un PanelDispensador compuesto por el panel Productos. Ahora el panel Productos tiene un metodo para poder agregar y quitar imagenes (necesita un string como CocaCola, Sprite, etc, tiene que ser igual al nombre de la imagen png en resources), y finalmente he puesto imagenes de todas las bebidas y el del usuario (se pueden cambiar en resources)" />
+    <MESSAGE value="-se implementaron los Arraylinst productos y botones para manipular las caracteristicas de los paneles anidados durante la interaccion" />
+    <MESSAGE value="-se implemento la capacidad de compra para CocaColas" />
+    <MESSAGE value="-se implemento la actualizacion del inventario con el retiro de productos" />
+    <MESSAGE value="Agregar comentarios javadoc 1" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" />
+    <MESSAGE value="-se acabo de implementar la capacidad de comparar productos" />
+    <MESSAGE value="-se termino el javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="-se termino el javadoc" />
+  </component>
+</project>

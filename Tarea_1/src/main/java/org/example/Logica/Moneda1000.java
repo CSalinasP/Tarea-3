@@ -5,7 +5,7 @@ package org.example.Logica;
  * Hereda de la clase abstracta moneda y establece como se consume.
  * @author Carlos Salinas
  */
-class Moneda1000 extends Moneda
+public class Moneda1000 extends Moneda
 {
 
     /**Constructor por defecto de la clase Moneda1000*/
@@ -16,6 +16,7 @@ class Moneda1000 extends Moneda
 
     /**
      * Retorna el numero de serie de la Moneda.
+     *
      * @return la instancia del objeto actual.
      */
     public Moneda getSerie() {
@@ -30,16 +31,10 @@ class Moneda1000 extends Moneda
         return 1000;
     }
 
+    /**Metodo que describe a la clase Moneda1000.
+     * @return un String que describe de la clase*/
     @Override
-    public int compareTo() {
-        return 0;
+    public String toString() {
+        return "Clase que representa una moneda con valor: "+this.getValor()+" y numero de serie: " + super.toString();
     }
-
-
-    @Override
-    public int compareTo(Object o) {
-        Moneda aux = (Moneda)o;
-        return Integer.compare(1000,aux.getValor());
-    }
-
 }

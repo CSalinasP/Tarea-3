@@ -1,11 +1,18 @@
 package org.example.Visual;
 
-import org.example.Visual.recursos.UsuarioImagen;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Clase que representa la imagen del usuario.
+ */
 public class CompradorImagen extends JPanel {
+
+    /**
+     * Constructor de la clase que crea e inicializa las propiedades del panel.
+     */
     public CompradorImagen(){
+        this.setBackground(Color.gray);
         JPanel ui = new UsuarioImagen();
         this.add(ui);
     }

@@ -30,4 +30,11 @@ class Snickers extends Dulce {
     public String consumir() {
         return "snickers";
     }
+
+    /**Metodo que describe a la clase Snickers.
+     * @return un String que describe de la clase*/
+    @Override
+    public String toString() {
+        return "Clase que representa un: "+this.consumir()+" con numero de serie: "+super.toString();
+    }
 }

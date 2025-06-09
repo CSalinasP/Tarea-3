@@ -4,12 +4,13 @@ package org.example.Logica;
  * Clase abstracta que representa una moneda y que implementa la interfaz Comparable
  * @author Carlos Salinas
  */
-abstract class Moneda implements Comparable {
+public abstract class Moneda implements Comparable<Moneda> {
     /**Constructor por defecto de la superclase Moneda*/
     public Moneda() {}
 
     /**
      * Retorna el numero de serie de la Moneda.
+     *
      * @return la instancia del objeto actual.
      */
     public Moneda getSerie() {
@@ -22,8 +23,19 @@ abstract class Moneda implements Comparable {
      */
     abstract public int getValor();
 
-    /**
-     * Metodo abstracto cuyo proposito aun no se define
-     */
-    public abstract int compareTo();
+   /**
+    * Metodo de la interfaz comparable para comparar objetos.
+    * En este caso se usa para comparar monedas por su valor.
+    * @param m es la moneda con la cual se quiere comparar la moneda actual.
+    */
+   @Override
+   public int compareTo(Moneda m){
+       if(this.getValor()>m.getValor()){
+           return 1;
+       }
+       else if(this.getValor()<m.getValor()){
+           return -1;
+       }
+       else{return 0;}
+   }
 }
