@@ -44,12 +44,18 @@ public class ProductosImagen extends JPanel {
         stock = new JLabel(String.valueOf(exp.getStock("coca")));
     }
 
-
+    /**
+     * @param g contexto gráfico utilizado para dibujar el panel.
+     */
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
     }
-
+    /**
+     * Añade al panel la imagen del producto y el texto con el stock.
+     * Busca y escala la imagen indicada, añadiéndola junto con el stock disponible.
+     * @param nombreImagen nombre del archivo de la imagen (sin extensión).
+     */
     public void addImagenTexto(String nombreImagen) {
         imagenPath = "C:\\POO\\Tarea-3\\Tarea_1\\src\\main\\resources\\"+nombreImagen+".png";
         File imagen = new File(imagenPath);
@@ -65,6 +71,10 @@ public class ProductosImagen extends JPanel {
             this.add(stock);
         }
     }
+    /**
+     * Actualiza visualmente el stock mostrado en el panel, consultando el nuevo valor desde el expendedor.
+     * @param deposito nombre del depósito o tipo de producto consultado.
+     */
     public void setStock (String deposito){
         stock.setText(exp.getStock(deposito));
     }
