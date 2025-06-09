@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se implemento la capacidad para comprar todos los productos">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" afterDir="false" />
-    </list>
+    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="Agregar comentarios javadoc 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +20,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Ignacio578 &lt;icontardo2024@udec.cl&gt;" />
         <option value="CSalinasP &lt;carlossalinaspereira@gmail.com&gt;" />
       </list>
     </option>
@@ -108,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749410636540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Agregar comentarios javadoc 1">
+      <option name="closed" value="true" />
+      <created>1749442099604</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749442099606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,6 +115,8 @@
     <MESSAGE value="En el panel del expendedor, el panel ExpendedorN (Superior) ahora tiene un mensaje por defecto con un metodo para poder actualizar el mensaje, el panel ExpendedorW (Lateral izquierdo) por defecto tiene ahora 3 subpaneles de mensajes en vertical (se puede cambiar), el panel ExpendedorS (Inferior) ahora tiene 2 subpaneles con un JButton cada uno para retirar producto y vuelto, el panel ExpendedorE (Lateral derecho) tiene ahora un PanelDispensador compuesto por el panel Productos. Ahora el panel Productos tiene un metodo para poder agregar y quitar imagenes (necesita un string como CocaCola, Sprite, etc, tiene que ser igual al nombre de la imagen png en resources), y finalmente he puesto imagenes de todas las bebidas y el del usuario (se pueden cambiar en resources)" />
     <MESSAGE value="-se implementaron los Arraylinst productos y botones para manipular las caracteristicas de los paneles anidados durante la interaccion" />
     <MESSAGE value="-se implemento la capacidad de compra para CocaColas" />
-    <option name="LAST_COMMIT_MESSAGE" value="-se implemento la capacidad de compra para CocaColas" />
+    <MESSAGE value="-se implemento la actualizacion del inventario con el retiro de productos" />
+    <MESSAGE value="Agregar comentarios javadoc 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar comentarios javadoc 1" />
   </component>
 </project>
