@@ -5,7 +5,7 @@ import org.example.Logica.Expendedor;
 import javax.swing.*;
 /**
  * Ventana de pruebas para la interfaz gráfica del expendedor.
- * @author (agrega tu nombre)
+ * @author CSalinasP
  * @version 1.1
  */
 public class VentanaPruebas extends JFrame
