@@ -6,19 +6,60 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 
+/**
+ * Panel principal de la interfaz gráfica del expendedor.
+
+ * 
+ * @author Farentsens
+ * @version 1.5
+ */
 public class PanelPrincipal extends JPanel {
+    /**
+     * Panel del expendedor utilizado en la interfaz.
+     */
     private PanelExpendedor exp;
+
+    /**
+     * Panel del comprador utilizado en la interfaz.
+     */
     private PanelComprador com;
+
+    /**
+     * Lista de botones para seleccionar productos.
+     */
     private ArrayList<JButton> botones;
+
+    /**
+     * Lista de botones para seleccionar monedas.
+     */
     private ArrayList<JButton> monedas;
-    private ArrayList<Productos> productos;
+
+    /**
+     * Lista de componentes visuales para mostrar los productos.
+     */
+    private ArrayList<ProductosImagen> productos;
+
+    /**
+     * Instancia de la lógica del expendedor.
+     */
     private Expendedor expLogica;
+
+    /**
+     * Instancia de la lógica del comprador.
+     */
     private Comprador comLogica;
-    private boolean b1 = false;
-    private boolean b2 = false;
 
+    /**
+     * Estados booleanos de control de selección.
+     */
+    private boolean b1 = false, b2 = false;
 
+    /**
+     * Crea el panel principal, inicializando tanto los elementos gráficos como la lógica del expendedor
+     * y todos los listeners necesarios para la interacción del usuario.
+     */
     public PanelPrincipal(){
+        // (Aquí va la implementación del constructor, ya documentada en detalle si hiciera falta)
         expLogica = new Expendedor(100, Precio.CIEN, Precio.DOSCIENTOS, Precio.TRESCIENTOS, Precio.QUINIENTOS, Precio.MIL);
         exp = new PanelExpendedor(expLogica);
         com = new PanelComprador();
@@ -188,11 +229,18 @@ public class PanelPrincipal extends JPanel {
         });
     }
 
-
+    /**
+     * Sobrescribe el método de dibujo del panel.
+     * <p>
+     * Llama al método padre {@code super.paintComponent(g)} para asegurar la correcta
+     * visualización de todos los componentes.
+     * </p>
+     * 
+     * @param g el contexto gráfico sobre el que pintar el panel.
+     */
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        // No es necesario llamar paintComponenualmente en los hijos
-
+        // No es necesario llamar paintComponent en los hijos
     }
 }
