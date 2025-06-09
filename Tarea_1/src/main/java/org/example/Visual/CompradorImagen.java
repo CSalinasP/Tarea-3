@@ -4,13 +4,15 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Crear un panel con la imganen de usario
+ * Clase que representa la imagen del usuario.
  */
 public class CompradorImagen extends JPanel {
+
+    /**
+     * Constructor de la clase que crea e inicializa las propiedades del panel.
+     */
     public CompradorImagen(){
-        /**
-         *
-         */
+        this.setBackground(Color.gray);
         JPanel ui = new UsuarioImagen();
         this.add(ui);
     }

@@ -5,16 +5,22 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
+/**Clase que representa el expendedor
+ * @author Farentsens
+ */
 public class PanelExpendedor extends JPanel {
     private ArrayList<JButton> botones;
     private ArrayList<JButton> retiros;
     private ArrayList<ProductosImagen> productos;
     private ExpendedorW W;
     private ExpendedorE E;
-    public PanelExpendedor(Expendedor exp){
-        this.setLayout(new BorderLayout()); //Delimita el panel en 5 partes
 
-        //Se instancia los subpaneles
+    /**Constructor de la clase que inicia las propiedades del panel exendedor, añade los
+     * paneles que intervienen en la interaccion.
+     */
+    public PanelExpendedor(Expendedor exp){
+        this.setLayout(new BorderLayout());
+
         ExpendedorC C = new ExpendedorC(exp);
         ExpendedorN N = new ExpendedorN();
         ExpendedorS S = new ExpendedorS();
@@ -25,8 +31,6 @@ public class PanelExpendedor extends JPanel {
         retiros = S.getBotones();
         productos = C.getProductos();
 
-
-        //Se añaden los subpaneles al panel expendedor
         this.add(C, BorderLayout.CENTER);
         this.add(N, BorderLayout.NORTH);
         this.add(S, BorderLayout.SOUTH);

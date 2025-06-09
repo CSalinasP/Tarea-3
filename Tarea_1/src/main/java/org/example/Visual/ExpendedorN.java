@@ -4,8 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Panel que muestra un mensaje informativo en la interfaz del expendedor.
- * 
+ * Panel que da la bienvenida a la interfaz.
  * @author CSalinasP
  * @version 1.0
  */
@@ -23,9 +22,7 @@ public class ExpendedorN extends JPanel {
 
     /**
      * Crea un nuevo panel de mensaje para el expendedor.
-     * <p>
      * Inicializa el mensaje con un texto de bienvenida y configura el formato visual del panel y la etiqueta.
-     * </p>
      */
     public ExpendedorN(){
         this.setPreferredSize(new Dimension(200, 100));

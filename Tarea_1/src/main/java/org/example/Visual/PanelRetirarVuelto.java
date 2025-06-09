@@ -17,9 +17,7 @@ public class PanelRetirarVuelto extends JPanel{
         this.setLayout(new GridBagLayout());
         this.add(new JButton("Retirar Vuelto"));
     }
-    /**
-     * @param g contexto gráfico sobre el que se dibuja el panel.
-     */
+
     public void paintComponent(Graphics g){
         super.paintComponent(g);
     }

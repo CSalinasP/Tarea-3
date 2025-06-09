@@ -5,7 +5,6 @@ import java.awt.*;
 import java.util.ArrayList;
 /**
  * Panel numérico que proporciona un teclado simple con botones del 1 al 5
- *
  * @author Farentsen
  * @version 1.0
  */

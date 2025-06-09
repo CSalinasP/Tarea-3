@@ -5,11 +5,22 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
+/**
+ * Clase que representa el deposito de productos del expendedor
+ * @author Farentsens
+ * @version 1.0
+ */
 public class ExpendedorC extends JPanel {
     private ArrayList<ProductosImagen> productos;
+
+    /**
+     * Constructor de la clase y configura el panel y añade los productos al deposito del expendedor.
+     */
     public ExpendedorC(Expendedor exp){
         this.setPreferredSize(new Dimension(200,200));
         this.setLayout(new GridLayout(3, 2, 5, 5));
+        this.setBackground(Color.gray);
+
         productos= new ArrayList<>();
 
         ProductosImagen cocacola = new ProductosImagen(exp);

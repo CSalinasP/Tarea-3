@@ -6,8 +6,7 @@ import java.awt.*;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
-
+/**Clase que representa el deposito de inventario del comprador
   @author CSalinasP
   @version 1.3
  */
@@ -17,13 +16,15 @@ public class CompradorDeposito extends JPanel {
     private JLabel imagenLabel;
     private URL url;
     private JLabel stock;
+
     /**
-     * Crear 5 paneles para los prductos
+     * Constructor de la clase que crea e inicializa las propiedades del panel y agrega los productos del inventario
+     * al deposito.
      */
     CompradorDeposito() {
         this.setLayout(new GridLayout(2, 3, 5, 5));
+        this.setBackground(Color.gray);
         productos = new ArrayList<>();
-
         stock = new JLabel("0");
         url = getClass().getResource("/CocaCola.png");
         if (url == null) {
@@ -104,10 +105,6 @@ public class CompradorDeposito extends JPanel {
         return productos;
     }
 
-    /**
-     *
-     * @param g the <code>Graphics</code> parametro paintComponent
-     */
     public void paintComponent(Graphics g){
         super.paintComponent(g);
     }

@@ -5,8 +5,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 /**
- * Panel visual que representa la interfaz lateral del expendedor.
- * 
+ * Panel visual que representa el selector de productos del expendedor.
  * @author CSalinas
  * @version 1.3
  */
@@ -26,7 +25,7 @@ public class ExpendedorE extends JPanel {
      */
     public ExpendedorE() {
         this.setLayout(new GridLayout(2, 1, 5, 5)); // 2 filas, 1 columna, con 5px de espacio entre componentes
-        this.setBackground(Color.black);
+        this.setBackground(Color.gray);
         PanelNumerico panelNumerico = new PanelNumerico();
         botones = panelNumerico.getBotones();
         this.add(panelNumerico);
@@ -37,7 +36,6 @@ public class ExpendedorE extends JPanel {
 
     /**
      * Obtiene la lista de botones numéricos disponibles en el panel.
-     *
      * @return lista de botones para ingresar códigos de productos.
      */
     public ArrayList<JButton> getBotones(){
@@ -48,12 +46,6 @@ public class ExpendedorE extends JPanel {
         return reinicio;
     }
 
-    /**
-     * Sobrescribe el método de dibujo del panel para asegurar el correcto renderizado
-     * de todos los componentes visuales.
-     *
-     * @param g contexto gráfico utilizado para dibujar el panel.
-     */
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);

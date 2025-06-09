@@ -5,7 +5,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 /**
- *
+ * Clase que representa el monedero del comprador
  * @author Farentsens
  * @version 1.0
  */
@@ -16,13 +16,12 @@ public class CompradorMonedero extends JPanel {
     private ArrayList<JButton> monedas;
 
     /**
-     * Crea y configura el panel del monedero del comprador.
-     * <p>
+     * Constructor de la clase y configura el panel del monedero del comprador.
      * Inicializa la lista de botones de monedas y los añade al panel en un diseño de cuadrícula.
-     * </p>
      */
     public CompradorMonedero(){
         setLayout(new GridLayout(2, 3, 5, 5));
+        this.setBackground(Color.gray);
         monedas = new ArrayList<>();
         JButton m100 = new JButton(); m100.add(new Monedas(100)); monedas.add(m100); this.add(m100);
         JButton m200 = new JButton(); m200.add(new Monedas(200)); monedas.add(m200); this.add(m200);
@@ -32,22 +31,11 @@ public class CompradorMonedero extends JPanel {
         JButton m1500 = new JButton(); m1500.add(new Monedas(1500)); monedas.add(m1500); this.add(m1500);
     }
 
-    /**
-     * Sobrescribe el método de pintado del panel para asegurar la correcta visualización y renderizado 
-     * de los componentes del monedero.
-     *
-     * @param g el contexto gráfico sobre el que pintar el panel.
-     */
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
     }
 
-    /**
-     * Obtiene la lista de botones de monedas disponibles en el monedero.
-     *
-     * @return una lista de botones que representan las monedas del comprador.
-     */
     public ArrayList<JButton> getMonedas(){
         return monedas;
     }

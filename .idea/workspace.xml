@@ -4,23 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java">
-      <change afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/NoHayProductoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/PagoIncorrectoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/PagoInsuficienteException.java" afterDir="false" />
+    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se acabo de implementar la capacidad de comparar productos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Exepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Logica/Exepciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/BotonesDelProducto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorMonedero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorMonedero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorE.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorN.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorW.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelDispensador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelReinicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelNumerico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelNumerico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelReinicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelReinicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarVuelto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarVuelto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/UsuarioImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/UsuarioImagen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/VentanaPruebas.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749442341145</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-se acabo de implementar la capacidad de comparar productos">
+      <option name="closed" value="true" />
+      <created>1749468213859</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749468213861</updated>
+    </task>
+    <task id="LOCAL-00009" summary="-se acabo de implementar la capacidad de comparar productos">
+      <option name="closed" value="true" />
+      <created>1749468321490</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749468321490</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,6 +181,7 @@
     <MESSAGE value="-se implemento la actualizacion del inventario con el retiro de productos" />
     <MESSAGE value="Agregar comentarios javadoc 1" />
     <MESSAGE value="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" />
+    <MESSAGE value="-se acabo de implementar la capacidad de comparar productos" />
+    <option name="LAST_COMMIT_MESSAGE" value="-se acabo de implementar la capacidad de comparar productos" />
   </component>
 </project>

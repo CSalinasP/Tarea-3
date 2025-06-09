@@ -5,9 +5,16 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
+/**Clase que representa el expendedor
+ * @author Farentsens
+ */
 public class PanelComprador extends JPanel {
     CompradorMonedero monedero;
     CompradorDeposito deposito;
+
+    /**Constructor de la clase que inicia las propiedades del panel comprador, añade los
+     * paneles que representan sus propiedades.
+     */
     public PanelComprador(Expendedor exp){
         setPreferredSize(new Dimension(200,650));
         this.setLayout(new GridLayout(3, 1, 5, 5));

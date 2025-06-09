@@ -5,6 +5,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
 
+/**
+ * Clase que representa un producto dentro del expendedor.
+ * @author Francisco Arentsen.
+ */
 public class ProductosImagen extends JPanel {
     private ImageIcon imagenIcon;
     private URL url;
@@ -12,26 +16,24 @@ public class ProductosImagen extends JPanel {
     private JLabel stock;
     Expendedor exp;
 
+    /**
+     * Constructor de la clase que hace la configuracion inicial del panel e inicializa el stock del producto asociado.
+     * *@param exp es el expendedor asociador.
+     */
     public ProductosImagen(Expendedor exp) {
         this.exp = exp;
-        // Ayuda a los Layout Managers a calcular el tamaño inicial
-        setPreferredSize(new Dimension(50, 50)); // 50x50 píxeles
-        setLayout(new BorderLayout()); // Agregar layout para centrar
+        setPreferredSize(new Dimension(50, 50));
         this.setLayout(new GridLayout(2, 1, 5, 5));
+        setLayout(new BorderLayout());
         this.setBackground(Color.black);
         setOpaque(false);
         stock = new JLabel(String.valueOf(exp.getStock("coca")));
     }
 
-    public ProductosImagen() {
-
-    }
-
-    @Override
-    protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
-    }
-
+    /**
+     * Metodo que añade la imagen del producto del inventario.
+     * @param nombreImagen es el nombre asosiado a la imagen del producto
+     */
     public void addImagenTexto(String nombreImagen) {
         url = getClass().getResource("/"+nombreImagen+".png");
         if (url == null) {
@@ -46,7 +48,17 @@ public class ProductosImagen extends JPanel {
             this.add(stock);
         }
     }
+
+    /**
+     * Metodo que actualiza el stock del expendedor.
+     */
     public void setStock (String deposito){
         stock.setText(exp.getStock(deposito));
+    }
+
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
     }
 }

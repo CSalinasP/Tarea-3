@@ -4,18 +4,16 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Panel informativo que muestra tres secciones de información en la interfaz del expendedor.
+ * Panel informativo que muestra los resultados de las interacciones.
  * <p>
  * @author CSalinasP
  * @version 1.5
  */
 public class ExpendedorW extends JPanel {
     private JLabel Estatus;
+
     /**
-     * Crea un nuevo panel informativo.
-     * <p>
-     * Inicializa los valores informativos y sus etiquetas gráficas, y dispone los componentes en una cuadrícula vertical.
-     * </p>
+     * Constructor de la clase que añade un JLabel que sirve para mostrar los resultados de las interacciones.
      */
     public ExpendedorW() {
         this.setPreferredSize(new Dimension(150, 400));
