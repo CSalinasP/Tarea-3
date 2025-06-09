@@ -4,14 +4,35 @@ import org.example.Logica.Expendedor;
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-
+/**
+ * Panel que representa visualmente un producto, mostrando su imagen y el stock disponible.
+ * @author Farentsens
+ * @version 1.2
+ */
 public class ProductosImagen extends JPanel {
+    /**
+     * Icono que representa la imagen del producto.
+     */
     private ImageIcon imagenIcon;
+    /**
+     * Ruta del archivo de la imagen.
+     */
     private String imagenPath;
+    /**
+     * Componente gráfico para mostrar la imagen.
+     */
     private JLabel imagenLabel;
+    /**
+     * Etiqueta para mostrar la cantidad de stock disponible.
+     */
     private JLabel stock;
+    /**
+     * Instancia de la lógica del expendedor asociada a este producto.
+     */
     Expendedor exp;
-
+    /**
+     * @param exp instancia del expendedor desde el cual obtener el stock.
+     */
     public ProductosImagen(Expendedor exp) {
         this.exp = exp;
         // Ayuda a los Layout Managers a calcular el tamaño inicial
@@ -23,9 +44,6 @@ public class ProductosImagen extends JPanel {
         stock = new JLabel(String.valueOf(exp.getStock("coca")));
     }
 
-    public ProductosImagen() {
-
-    }
 
     @Override
     protected void paintComponent(Graphics g) {
