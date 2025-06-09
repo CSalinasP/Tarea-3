@@ -1,7 +1,11 @@
 package org.example.Visual;
 
 import javax.swing.JFrame;
-
+/**
+ *
+ * @author CSalinasP
+ * @version 1.2
+ */
 public class Ventana extends JFrame
 {
     PanelPrincipal PanelPrincipal = new PanelPrincipal();

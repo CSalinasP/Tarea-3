@@ -3,9 +3,20 @@ package org.example.Visual;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
-
+/**
+ * Panel numérico que proporciona un teclado simple con botones del 1 al 5
+ *
+ * @author Farentsen
+ * @version 1.0
+ */
 public class PanelNumerico extends JPanel {
+    /**
+     * Lista de botones numéricos y de acción pertenecientes al panel.
+     */
     private ArrayList<JButton> botones;
+    /**
+     * Crea un nuevo panel numérico inicializando sus botones y organizándolos.
+     */
     public PanelNumerico() {
         this.setPreferredSize(new Dimension(150,50));
         this.setLayout(new GridLayout(3, 2, 5, 5)); // 3 filas, 2 columnas, con 5px de espacio entre componentes
@@ -24,11 +35,15 @@ public class PanelNumerico extends JPanel {
         this.add(boton5); botones.add(boton5);
         this.add(botonEnter); botones.add(botonEnter);
     }
-
+    /**
+     * @return lista de botones {@link JButton} del panel.
+     */
     public ArrayList<JButton> getBotones(){
         return botones;
     }
-
+    /**
+     * @param g contexto gráfico utilizado para dibujar el panel.
+     */
     public void paintComponent(Graphics g){
         super.paintComponent(g);
     }
