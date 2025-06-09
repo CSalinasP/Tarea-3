@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-commit requerido para hacer un merge con la version mas actual de la rama pruebas2" />
+    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se implemento la capacidad para comprar todos los productos">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,135 +28,94 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="pruebas2" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="CSalinasP &lt;carlossalinaspereira@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4340c96910491366ac6a8330c06d60a91dbd5540" />
+        <entry key="$PROJECT_DIR$" value="pruebas" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Ignacio587&quot;
+    &quot;assignee&quot;: &quot;Farentsen999&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/CSalinasP/Tarea-3.git&quot;,
-    &quot;accountId&quot;: &quot;66f306a8-194d-4dff-b5af-bb713924d60f&quot;
+    &quot;accountId&quot;: &quot;770e8be2-4553-4c8c-a263-93cce23a67f1&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2xxepihJul17O25ZdinVU5qcKd5" />
+  <component name="ProjectId" id="2y6LWavQduAiPSZ8KCKlqyGx4bs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainGrafico.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainInteractivo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.mainGraficoPruebas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.PanelComprador.MainGrafico.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ignacio-contardo/Escritorio/Tarea-3/Tarea_1/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainGrafico.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#1 on pruebas",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/POO/Tarea-3/Tarea_1/src/main/java/org/example/Visual"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tarea_1/src/main/resources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
+      <recent name="C:\POO\Tarea-3\Tarea_1\src\main\java\org\example\Visual" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="org.example.PanelComprador.MainGrafico" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PanelComprador.MainGrafico" />
-      <module name="Tarea_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Visual.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.PanelComprador.MainGrafico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PanelComprador.MainGrafico" />
-      <module name="Tarea_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Visual.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.org.example.PanelComprador.MainGrafico" />
-        <item itemvalue="Application.org.example.PanelComprador.MainGrafico" />
-      </list>
-    </recent_temporary>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="" />
-      <created>1748884337705</created>
+      <changelist id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se incorporo una nueva funcionalidad de prueba: al hacer click en el boton 1 el fondo del panel compador cambia de color de rojo a azul" />
+      <created>1749150129496</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748884337705</updated>
+      <updated>1749150129496</updated>
     </task>
-    <task id="LOCAL-00001" summary="Revert &quot;a&quot;&#10;&#10;This reverts commit 5972054d">
+    <task id="LOCAL-00001" summary="En el panel del expendedor, el panel ExpendedorN (Superior) ahora tiene un mensaje por defecto con un metodo para poder actualizar el mensaje, el panel ExpendedorW (Lateral izquierdo) por defecto tiene ahora 3 subpaneles de mensajes en vertical (se puede cambiar), el panel ExpendedorS (Inferior) ahora tiene 2 subpaneles con un JButton cada uno para retirar producto y vuelto, el panel ExpendedorE (Lateral derecho) tiene ahora un PanelDispensador compuesto por el panel Productos. Ahora el panel Productos tiene un metodo para poder agregar y quitar imagenes (necesita un string como CocaCola, Sprite, etc, tiene que ser igual al nombre de la imagen png en resources), y finalmente he puesto imagenes de todas las bebidas y el del usuario (se pueden cambiar en resources)">
       <option name="closed" value="true" />
-      <created>1749058100314</created>
+      <created>1749150258552</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1749058100315</updated>
+      <updated>1749150258552</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="En el panel del expendedor, el panel ExpendedorN (Superior) ahora tiene un mensaje por defecto con un metodo para poder actualizar el mensaje, el panel ExpendedorW (Lateral izquierdo) por defecto tiene ahora 3 subpaneles de mensajes en vertical (se puede cambiar), el panel ExpendedorS (Inferior) ahora tiene 2 subpaneles con un JButton cada uno para retirar producto y vuelto, el panel ExpendedorE (Lateral derecho) tiene ahora un PanelDispensador compuesto por el panel Productos. Ahora el panel Productos tiene un metodo para poder agregar y quitar imagenes (necesita un string como CocaCola, Sprite, etc, tiene que ser igual al nombre de la imagen png en resources), y finalmente he puesto imagenes de todas las bebidas y el del usuario (se pueden cambiar en resources)">
+      <option name="closed" value="true" />
+      <created>1749150300808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749150300808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-se implemento la capacidad de compra para CocaColas">
+      <option name="closed" value="true" />
+      <created>1749410636540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749410636540</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Revert &quot;a&quot;&#10;&#10;This reverts commit 5972054d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;a&quot;&#10;&#10;This reverts commit 5972054d" />
-    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+    <MESSAGE value="-commit necesario para hacer checkout" />
+    <MESSAGE value="En el panel del expendedor, el panel ExpendedorN (Superior) ahora tiene un mensaje por defecto con un metodo para poder actualizar el mensaje, el panel ExpendedorW (Lateral izquierdo) por defecto tiene ahora 3 subpaneles de mensajes en vertical (se puede cambiar), el panel ExpendedorS (Inferior) ahora tiene 2 subpaneles con un JButton cada uno para retirar producto y vuelto, el panel ExpendedorE (Lateral derecho) tiene ahora un PanelDispensador compuesto por el panel Productos. Ahora el panel Productos tiene un metodo para poder agregar y quitar imagenes (necesita un string como CocaCola, Sprite, etc, tiene que ser igual al nombre de la imagen png en resources), y finalmente he puesto imagenes de todas las bebidas y el del usuario (se pueden cambiar en resources)" />
+    <MESSAGE value="-se implementaron los Arraylinst productos y botones para manipular las caracteristicas de los paneles anidados durante la interaccion" />
+    <MESSAGE value="-se implemento la capacidad de compra para CocaColas" />
+    <option name="LAST_COMMIT_MESSAGE" value="-se implemento la capacidad de compra para CocaColas" />
   </component>
 </project>

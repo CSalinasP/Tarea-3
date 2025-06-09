@@ -5,14 +5,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
-public class Productos extends JPanel {
+public class ProductosImagen extends JPanel {
     private ImageIcon imagenIcon;
     private String imagenPath;
     private JLabel imagenLabel;
     private JLabel stock;
     Expendedor exp;
 
-    public Productos(Expendedor exp) {
+    public ProductosImagen(Expendedor exp) {
         this.exp = exp;
         // Ayuda a los Layout Managers a calcular el tamaño inicial
         setPreferredSize(new Dimension(50, 50)); // 50x50 píxeles
@@ -23,7 +23,7 @@ public class Productos extends JPanel {
         stock = new JLabel(String.valueOf(exp.getStock("coca")));
     }
 
-    public Productos() {
+    public ProductosImagen() {
 
     }
 

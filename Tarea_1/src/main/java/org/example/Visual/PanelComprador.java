@@ -1,19 +1,21 @@
 package org.example.Visual;
 
+import org.example.Logica.Expendedor;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
 public class PanelComprador extends JPanel {
     CompradorMonedero monedero;
-    public PanelComprador(){
+    CompradorDeposito deposito;
+    public PanelComprador(Expendedor exp){
         setPreferredSize(new Dimension(200,650));
         this.setLayout(new GridLayout(3, 1, 5, 5));
 
         //se instancian los subpaneles
         monedero = new CompradorMonedero();
+        deposito = new CompradorDeposito();
         JPanel imagen = new CompradorImagen();
-        JPanel deposito = new CompradorDeposito();
 
         //se añaden los subpaneles
         this.add(imagen);
@@ -26,4 +28,5 @@ public class PanelComprador extends JPanel {
     }
 
     public ArrayList<JButton> getMonedas(){return monedero.getMonedas();}
+    public ArrayList<ProductosImagen2> getProductos(){return deposito.getProductos();}
 }
