@@ -3,11 +3,11 @@ import org.example.Logica.Expendedor;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.File;
+import java.net.URL;
 
 public class ProductosImagen extends JPanel {
     private ImageIcon imagenIcon;
-    private String imagenPath;
+    private URL url;
     private JLabel imagenLabel;
     private JLabel stock;
     Expendedor exp;
@@ -33,12 +33,11 @@ public class ProductosImagen extends JPanel {
     }
 
     public void addImagenTexto(String nombreImagen) {
-        imagenPath = "C:\\POO\\Tarea-3\\Tarea_1\\src\\main\\resources\\"+nombreImagen+".png";
-        File imagen = new File(imagenPath);
-        if (!imagen.exists()) {
-            System.err.println("Error: La imagen no se encontró en la ruta especificada: " + imagen);}
+        url = getClass().getResource("/"+nombreImagen+".png");
+        if (url == null) {
+            System.err.println("Error: La imagen no se encontró en la ruta especificada");}
         else{
-            imagenIcon = new ImageIcon(imagenPath);
+            imagenIcon = new ImageIcon(url);
             Image I = imagenIcon.getImage();
             Image aux = I.getScaledInstance(50,50,Image.SCALE_SMOOTH);
             imagenIcon = new ImageIcon(aux);

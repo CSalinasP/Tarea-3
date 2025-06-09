@@ -15,6 +15,7 @@ public class ExpendedorE extends JPanel {
      * Lista de botones numéricos provenientes del panel de selección de código.
      */
     private ArrayList<JButton> botones;
+    private PanelReinicio reinicio;
 
     /**
      * Crea el panel lateral del expendedor.
@@ -25,13 +26,13 @@ public class ExpendedorE extends JPanel {
      */
     public ExpendedorE() {
         this.setLayout(new GridLayout(2, 1, 5, 5)); // 2 filas, 1 columna, con 5px de espacio entre componentes
-        this.setBackground(Color.RED);
+        this.setBackground(Color.black);
         PanelNumerico panelNumerico = new PanelNumerico();
         botones = panelNumerico.getBotones();
         this.add(panelNumerico);
 
-        JPanel m = new PanelDispensador();
-        this.add(m);
+        reinicio = new PanelReinicio();
+        this.add(reinicio);
     }
 
     /**
@@ -41,6 +42,10 @@ public class ExpendedorE extends JPanel {
      */
     public ArrayList<JButton> getBotones(){
         return botones;
+    }
+
+    public PanelReinicio getReinicio(){
+        return reinicio;
     }
 
     /**

@@ -8,14 +8,20 @@ import java.awt.*;
  * @author CSalinasP
  * @version 1.3
  */
-public class PanelDispensador extends JPanel{
+public class PanelReinicio extends JPanel{
+    JButton reestart;
     /**
      * Crea e inicializa el panel del dispensador.
      * <p>
      */
-    public PanelDispensador(){
+    public PanelReinicio(){
         this.setLayout(new GridBagLayout());
-        this.add(new JButton("Restart"));
+        reestart = new JButton("Reinicio");
+        this.add(reestart);
+    }
+
+    public JButton getReestart(){
+        return reestart;
     }
     /**
      * @param g contexto gráfico utilizado para dibujar el componente.

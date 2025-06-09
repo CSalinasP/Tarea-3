@@ -9,6 +9,8 @@ public class PanelExpendedor extends JPanel {
     private ArrayList<JButton> botones;
     private ArrayList<JButton> retiros;
     private ArrayList<ProductosImagen> productos;
+    private ExpendedorW W;
+    private ExpendedorE E;
     public PanelExpendedor(Expendedor exp){
         this.setLayout(new BorderLayout()); //Delimita el panel en 5 partes
 
@@ -16,8 +18,8 @@ public class PanelExpendedor extends JPanel {
         ExpendedorC C = new ExpendedorC(exp);
         ExpendedorN N = new ExpendedorN();
         ExpendedorS S = new ExpendedorS();
-        ExpendedorE E = new ExpendedorE();
-        ExpendedorW W = new ExpendedorW();
+        E = new ExpendedorE();
+        W = new ExpendedorW();
 
         botones = E.getBotones();
         retiros = S.getBotones();
@@ -38,6 +40,10 @@ public class PanelExpendedor extends JPanel {
     public ArrayList<JButton> getRetiros(){
         return retiros;
     }
+    public PanelReinicio getPanelReinicio(){
+        return E.getReinicio();
+    }
+    public ExpendedorW getStatus(){return W;}
     public ArrayList<ProductosImagen> getProductos(){
         return productos;
     }

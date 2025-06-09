@@ -3,7 +3,7 @@ package org.example.Visual;
 import org.example.Logica.Expendedor;
 import javax.swing.*;
 import java.awt.*;
-import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -14,8 +14,8 @@ import java.util.ArrayList;
 public class CompradorDeposito extends JPanel {
     private ArrayList<ProductosImagen2> productos;
     private ImageIcon imagenIcon;
-    private String imagenPath;
     private JLabel imagenLabel;
+    private URL url;
     private JLabel stock;
     /**
      * Crear 5 paneles para los prductos
@@ -25,12 +25,11 @@ public class CompradorDeposito extends JPanel {
         productos = new ArrayList<>();
 
         stock = new JLabel("0");
-        imagenPath = "C:\\POO\\Tarea-3\\Tarea_1\\src\\main\\resources\\CocaCola.png";
-        File imagen1 = new File(imagenPath);
-        if (!imagen1.exists()) {
-            System.err.println("Error: La imagen no se encontró en la ruta especificada: " + imagen1);
-        } else {
-            imagenIcon = new ImageIcon(imagenPath);
+        url = getClass().getResource("/CocaCola.png");
+        if (url == null) {
+            System.err.println("Error: La imagen no se encontró en la ruta especificada");}
+        else {
+            imagenIcon = new ImageIcon(url);
             Image I = imagenIcon.getImage();
             Image aux = I.getScaledInstance(50, 50, Image.SCALE_SMOOTH);
             imagenIcon = new ImageIcon(aux);
@@ -41,12 +40,11 @@ public class CompradorDeposito extends JPanel {
         }
 
         stock = new JLabel("0");
-        imagenPath = "C:\\POO\\Tarea-3\\Tarea_1\\src\\main\\resources\\Sprite.png";
-        File imagen2 = new File(imagenPath);
-        if (!imagen2.exists()) {
-            System.err.println("Error: La imagen no se encontró en la ruta especificada: " + imagen2);
-        } else {
-            imagenIcon = new ImageIcon(imagenPath);
+        url = getClass().getResource("/Sprite.png");
+        if (url == null) {
+            System.err.println("Error: La imagen no se encontró en la ruta especificada");}
+        else {
+            imagenIcon = new ImageIcon(url);
             Image I = imagenIcon.getImage();
             Image aux = I.getScaledInstance(50, 50, Image.SCALE_SMOOTH);
             imagenIcon = new ImageIcon(aux);
@@ -57,12 +55,11 @@ public class CompradorDeposito extends JPanel {
         }
 
         stock = new JLabel("0");
-        imagenPath = "C:\\POO\\Tarea-3\\Tarea_1\\src\\main\\resources\\Fanta.png";
-        File imagen3 = new File(imagenPath);
-        if (!imagen3.exists()) {
-            System.err.println("Error: La imagen no se encontró en la ruta especificada: " + imagen3);
-        } else {
-            imagenIcon = new ImageIcon(imagenPath);
+        url = getClass().getResource("/Fanta.png");
+        if (url == null) {
+            System.err.println("Error: La imagen no se encontró en la ruta especificada");}
+        else {
+            imagenIcon = new ImageIcon(url);
             Image I = imagenIcon.getImage();
             Image aux = I.getScaledInstance(50, 50, Image.SCALE_SMOOTH);
             imagenIcon = new ImageIcon(aux);
@@ -73,12 +70,11 @@ public class CompradorDeposito extends JPanel {
         }
 
         stock = new JLabel("0");
-        imagenPath = "C:\\POO\\Tarea-3\\Tarea_1\\src\\main\\resources\\Super8.png";
-        File imagen4 = new File(imagenPath);
-        if (!imagen4.exists()) {
-            System.err.println("Error: La imagen no se encontró en la ruta especificada: " + imagen4);
-        } else {
-            imagenIcon = new ImageIcon(imagenPath);
+        url = getClass().getResource("/Super8.png");
+        if (url == null) {
+            System.err.println("Error: La imagen no se encontró en la ruta especificada");}
+        else {
+            imagenIcon = new ImageIcon(url);
             Image I = imagenIcon.getImage();
             Image aux = I.getScaledInstance(50, 50, Image.SCALE_SMOOTH);
             imagenIcon = new ImageIcon(aux);
@@ -89,12 +85,11 @@ public class CompradorDeposito extends JPanel {
         }
 
         stock = new JLabel("0");
-        imagenPath = "C:\\POO\\Tarea-3\\Tarea_1\\src\\main\\resources\\Snickers.png";
-        File imagen5 = new File(imagenPath);
-        if (!imagen5.exists()) {
-            System.err.println("Error: La imagen no se encontró en la ruta especificada: " + imagen5);
-        } else {
-            imagenIcon = new ImageIcon(imagenPath);
+        url = getClass().getResource("/Snickers.png");
+        if (url == null) {
+            System.err.println("Error: La imagen no se encontró en la ruta especificada");}
+        else {
+            imagenIcon = new ImageIcon(url);
             Image I = imagenIcon.getImage();
             Image aux = I.getScaledInstance(50, 50, Image.SCALE_SMOOTH);
             imagenIcon = new ImageIcon(aux);
