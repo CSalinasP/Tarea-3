@@ -9,7 +9,7 @@ import java.awt.*;
 public class CompradorImagen extends JPanel {
     public CompradorImagen(){
         /**
-         *
+         * Llama a utilizar la imagen png
          */
         JPanel ui = new UsuarioImagen();
         this.add(ui);

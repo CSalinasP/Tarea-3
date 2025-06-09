@@ -17,9 +17,6 @@ public class CompradorMonedero extends JPanel {
 
     /**
      * Crea y configura el panel del monedero del comprador.
-     * <p>
-     * Inicializa la lista de botones de monedas y los añade al panel en un diseño de cuadrícula.
-     * </p>
      */
     public CompradorMonedero(){
         setLayout(new GridLayout(2, 3, 5, 5));
