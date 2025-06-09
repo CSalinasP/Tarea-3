@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se acabo de implementar la capacidad de comparar productos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/BotonesDelProducto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorMonedero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/CompradorMonedero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorE.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorN.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorW.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ExpendedorW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelComprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelNumerico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelNumerico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelReinicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelReinicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarVuelto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/PanelRetirarVuelto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/ProductosImagen2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/UsuarioImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/UsuarioImagen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/Ventana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea_1/src/main/java/org/example/Visual/VentanaPruebas.java" beforeDir="false" />
-    </list>
+    <list default="true" id="72fe88e2-07c2-4ff1-96c1-4ceca06f47aa" name="Changes" comment="-se termino el javadoc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,16 +51,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainGrafico.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#1 on pruebas&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/POO/Tarea-3/Tarea_1/src/main/java/org/example/Visual&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainGrafico.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#1 on pruebas",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/POO/Tarea-3/Tarea_1/src/main/java/org/example/Visual"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\POO\Tarea-3\Tarea_1\src\main\java\org\example\Visual" />
@@ -170,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749468321490</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="-se termino el javadoc">
+      <option name="closed" value="true" />
+      <created>1749479758860</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749479758860</updated>
+    </task>
+    <task id="LOCAL-00011" summary="-se termino el javadoc">
+      <option name="closed" value="true" />
+      <created>1749479895672</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749479895672</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +174,7 @@
     <MESSAGE value="Agregar comentarios javadoc 1" />
     <MESSAGE value="Merge remote-tracking branch 'origin/pruebas' into pruebas&#10;&#10;# Conflicts:&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorDeposito.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/CompradorImagen.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorC.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ExpendedorS.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelComprador.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelExpendedor.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/PanelPrincipal.java&#10;#&#9;Tarea_1/src/main/java/org/example/Visual/ProductosImagen.java" />
     <MESSAGE value="-se acabo de implementar la capacidad de comparar productos" />
-    <option name="LAST_COMMIT_MESSAGE" value="-se acabo de implementar la capacidad de comparar productos" />
+    <MESSAGE value="-se termino el javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="-se termino el javadoc" />
   </component>
 </project>
