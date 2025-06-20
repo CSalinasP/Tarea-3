@@ -3,43 +3,26 @@ package org.example.Visual;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Panel informativo que muestra los resultados de las interacciones.
+ * <p>
+ * @author CSalinasP
+ * @version 1.5
+ */
 public class ExpendedorW extends JPanel {
+    private JLabel Estatus;
 
-    String InformacionA;
-    String InformacionB;
-    String InformacionC;
-
-    int intInformacionA;
-    int intInformacionB;
-    int intInformacionC;
-
-    JLabel InformacionALabel;
-    JLabel InformacionBLabel;
-    JLabel InformacionCLabel;
-
-    public ExpendedorW(){
+    /**
+     * Constructor de la clase que añade un JLabel que sirve para mostrar los resultados de las interacciones.
+     */
+    public ExpendedorW() {
         this.setPreferredSize(new Dimension(150, 400));
         this.setBackground(Color.gray);
-        this.setLayout(new GridLayout(3, 1));
-
-        intInformacionA = 0;
-        intInformacionB = 0;
-        intInformacionC = 0;
-        InformacionA = "Info 1: " + intInformacionA;
-        InformacionB = "Info 2: " + intInformacionB;
-        InformacionC = "Info 3: " + intInformacionC;
-        InformacionALabel = new JLabel(InformacionA);
-        InformacionBLabel = new JLabel(InformacionB);
-        InformacionCLabel = new JLabel(InformacionC);
-        InformacionALabel.setFont(new Font("Arial", Font.BOLD, 15));
-        InformacionBLabel.setFont(new Font("Arial", Font.BOLD, 15));
-        InformacionCLabel.setFont(new Font("Arial", Font.BOLD, 15));
-        this.add(InformacionALabel);
-        this.add(InformacionBLabel);
-        this.add(InformacionCLabel);
+        Estatus = new JLabel("Estatus: ");
+        this.add(Estatus);
     }
 
-    public void paintComponent(Graphics g){
-        super.paintComponent(g);
+    public void setEstatus(String estatus){
+        Estatus.setText(estatus);
     }
 }

@@ -24,7 +24,6 @@ public class ProductosImagen extends JPanel {
         this.exp = exp;
         setPreferredSize(new Dimension(50, 50));
         this.setLayout(new GridLayout(2, 1, 5, 5));
-        setLayout(new BorderLayout());
         this.setBackground(Color.black);
         setOpaque(false);
         stock = new JLabel(String.valueOf(exp.getStock("coca")));
